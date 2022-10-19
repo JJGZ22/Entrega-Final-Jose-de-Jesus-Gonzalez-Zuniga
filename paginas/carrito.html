@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Carrito</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <h1><img class="header_titulo" src="../img/gurugamer_icon.jpg" alt="Logotipo de la pagina GuruGames"> GuruGames
+        </h1>
+
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"> <a href="../index.html"> Inicio</a></li>
+                <li class="navbar__item"> <a href="./productos.html"> Productos</a></li>
+                <li class="navbar__item"> <a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+                <li class="navbar__item"><a href="./resenas.html">Reseñas</a></li>
+                <li class="navbar__item"> <a href="./carrito.html"> Carrito</a></li>
+                <div class="barra_busqueda" id="formulario-busqueda">
+                    <input type="text" id="busca-terminos" placeholder="Que Buscas?" />
+                    <button type="button" id="btn-buscar">Encuentra!</button>
+                </div>
+                <img class="login_icon" src="../img/login_icon.png" alt="logotipo para iniciar sesion">
+                <a href="">Iniciar Sesion</a>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="carrito-titulo">CARRITO</h2>
+    <br>
+    <ul class="shopping_cart">
+        <li class="sp_product_row">
+            <div class="sp_product_details">
+
+                <h3 class="sp_product_title">Productos en el carrito</h3>
+            </div>
+            <form class="sp_product_manage">
+                <span id="price" readonly class="sp_product_price">Precio</span>
+                <span id="quantity" class="sp_product_quantity">Cantidad</span>
+                <span id="total" class="sp_product_total_price">Subtotal</span>
+                </span>
+                <span class="sp_remove-product">Accion</span>
+            </form>
+        </li>
+        <li class="sp_product_row">
+            <div class="sp_product_image">
+                <img src="../img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
+            </div>
+
+
+            <div class="sp_product_details">
+
+                <h3 class="sp_product_title">Titanfall 2</h3>
+                <div class="sp_product_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                </div>
+            </div>
+            <form class="sp_product_manage" oninput="total.value=parseInt(price.value)*parseInt(quantity.value)">
+                <input id="price" readonly class="sp_product_price" value="500$"> x
+                <input id="quantity" class="sp_product_quantity" type="number" value="2" min="1" />
+                <output id="total" class="sp_product_total_price">
+                    1000$
+                </output>
+                <button class="sp_remove-product">Eliminar</button>
+            </form>
+        </li>
+        <li class="sp_product_row">
+            <div class="sp_product_image">
+                <img src="../img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
+            </div>
+
+
+            <div class="sp_product_details">
+
+                <h3 class="sp_product_title">Titanfall 2</h3>
+                <div class="sp_product_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                </div>
+            </div>
+            <form class="sp_product_manage" oninput="total2.value=parseInt(price2.value)*parseInt(quantity2.value)">
+                <input id="price2" readonly class="sp_product_price" value="500$"> x
+                <input id="quantity2" class="sp_product_quantity" type="number" value="2" min="1" />
+                <output id="total2" class="sp_product_total_price">
+                    1000$
+                </output>
+                <button class="sp_remove_product">Eliminar</button>
+            </form>
+        </li>
+    </ul>
+
+    <li class="sp_product_row">
+        <div class="sp_product_image">
+            <img src="../img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
+        </div>
+
+
+        <div class="sp_product_details">
+
+            <h3 class="sp_product_title">Titanfall 2</h3>
+            <div class="sp_product_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            </div>
+        </div>
+        <form class="sp_product_manage" oninput="total2.value=parseInt(price2.value)*parseInt(quantity2.value)">
+            <input id="price2" readonly class="sp_product_price" value="500$"> x
+            <input id="quantity2" class="sp_product_quantity" type="number" value="2" min="1" />
+            <output id="total2" class="sp_product_total_price">
+                1000$
+            </output>
+            <button class="sp_remove-product">Eliminar</button>
+        </form>
+    </li>
+    </ul>
+
+    <li class="sp_product_row">
+        <div class="sp_product_image">
+            <img src="../img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
+        </div>
+
+
+        <div class="sp_product_details">
+
+            <h3 class="sp_product_title">Titanfall 2</h3>
+            <div class="sp_product_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            </div>
+        </div>
+        <form class="sp_product_manage" oninput="total2.value=parseInt(price2.value)*parseInt(quantity2.value)">
+            <input id="price2" readonly class="sp_product_price" value="500$"> x
+            <input id="quantity2" class="sp_product_quantity" type="number" value="2" min="1" />
+            <output id="total2" class="sp_product_total_price">
+                1000$
+            </output>
+            <button class="sp_remove-product">Eliminar</button>
+        </form>
+    </li>
+    </ul>
+
+    <div><button>Seguir Comprando</button> <button>Realizar Compra</button></div>
+
+    <br>
+    <h2>Plataformas y Redes Sociales</h2>
+    <footer>
+        <h3>PS5</h3>
+        <h3>PS4</h3>
+        <h3>XBOX SERIES X</h3>
+        <h3>XBOX ONE</h3>
+        <h3>NINTENDO SWITCH</h3>
+        <img class="iconos_rs" src="../img/facebook_icon.png" alt="icono de facebook">
+        <img class="iconos_rs" src="../img/facebook_icon.png" alt="icono de facebook">
+        <img class="iconos_rs" src="../img/facebook_icon.png" alt="icono de facebook">
+        <img class="iconos_rs" src="../img/facebook_icon.png" alt="icono de facebook">
+
+    </footer>
+
+
+</body>
+
+</html>
