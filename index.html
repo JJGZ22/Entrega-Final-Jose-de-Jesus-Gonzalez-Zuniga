@@ -5,120 +5,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Inicio</title>
 </head>
 
-<body>
-    <header class="header">
-
-        <h1><img class="header_titulo" src="./img/gurugamer_icon.jpg" alt="Logotipo de la pagina GuruGames"> GuruGames
-        </h1>
-
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"> <a href="./index.html"> Inicio</a></li>
-                <li class="navbar__item"> <a href="./paginas/productos.html"> Productos</a></li>
-                <li class="navbar__item"> <a href="./paginas/sobre-nosotros.html">Sobre nosotros</a></li>
-                <li class="navbar__item"><a href="./paginas/resenas.html"">Reseñas</a></li>
-                <li class=" navbar__item"> <a href="./paginas/carrito.html"> Carrito</a></li>
-                <div class="barra_busqueda" id="formulario-busqueda">
-                    <input type="text" id="busca-terminos" placeholder="Que Buscas?" />
-                    <button type="button" id="btn-buscar">Encuentra!</button>
+<body class="container-fluid">
+    <header>
+        <nav class="navbar_inicio navbar navbar-expand-lg bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img class="header_titulo" src="./img/gurugamer_icon.jpg"
+                        alt="Logotipo de la pagina GuruGames">GuruGames</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/resenas.html">Reseñas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/carrito.html">Carrito</a>
+                        </li>
+                    </ul>
+                    <form class=" barra_busqueda d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Que Buscas?" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                    <img class="login_icon" src="./img/login_icon.png" alt="logotipo para iniciar sesion">
+                    <a href="">Iniciar Sesion</a>
                 </div>
-
-                <img class="login_icon" src="./img/login_icon.png" alt="logotipo para iniciar sesion">
-                <a href="">Iniciar Sesion</a>
-            </ul>
+            </div>
         </nav>
     </header>
-
-    </section>
     <section>
         <div>
             <h2 class="candente_titulo">OFERTAS CANDENTES! <br> OBTEN HASTA 50% DE DESCUENTO!</h2>
 
         </div>
+    </section>
 
-        <section class="products">
-            <div class="product_card">
-                <div class="product_image">
-                    <img src="./img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
-                </div>
-                <div class="product_info">
-                    <h3>Titanfall 2</h3>
-                    <h6>$500.00</h6>
-                    <button>Comprar</button><button>Agregar al carrito</button>
-                </div>
+    <section class="products">
+        <div class="product_card">
+            <div class="product_image">
+                <img src="./img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
             </div>
+            <div class="product_info">
+                <h3>Titanfall 2</h3>
+                <h6>$500.00</h6>
+                <button>Comprar</button><button>Agregar al carrito</button>
+            </div>
+        </div>
 
-            <div class="product_card">
-                <div class="product_image">
-                    <img src="./img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
-                </div>
-                <div class="product_info">
-                    <h3>Titanfall 2</h3>
-                    <h6>$500.00</h6>
-                    <button>Comprar</button><button>Agregar al carrito</button>
-                </div>
+        <div class="product_card">
+            <div class="product_image">
+                <img src="./img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
             </div>
+            <div class="product_info">
+                <h3>Titanfall 2</h3>
+                <h6>$500.00</h6>
+                <button>Comprar</button><button>Agregar al carrito</button>
+            </div>
+        </div>
 
-            <div class="product_card">
-                <div class="product_image">
-                    <img src="./img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
-                </div>
-                <div class="product_info">
-                    <h3>Titanfall 2</h3>
-                    <h6>$500.00</h6>
-                    <button>Comprar</button><button>Agregar al carrito</button>
-                </div>
+        <div class="product_card">
+            <div class="product_image">
+                <img src="./img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
             </div>
+            <div class="product_info">
+                <h3>Titanfall 2</h3>
+                <h6>$500.00</h6>
+                <button>Comprar</button><button>Agregar al carrito</button>
+            </div>
+        </div>
 
-            <div class="product_card">
-                <div class="product_image">
-                    <img src="./img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
-                </div>
-                <div class="product_info">
-                    <h3>Titanfall 2</h3>
-                    <h6>$500.00</h6>
-                    <button>Comprar</button> <button>Agregar al carrito</button>
-                </div>
+        <div class="product_card">
+            <div class="product_image">
+                <img src="./img/titanfall2.jpg" alt="Imagen del producto titanfall 2">
             </div>
-        </section>
+            <div class="product_info">
+                <h3>Titanfall 2</h3>
+                <h6>$500.00</h6>
+                <button>Comprar</button> <button>Agregar al carrito</button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <article class="article_mas_vendidos">
+        <div>
+            <h2>LOS MEJOR VENDIDOS Y CALIFICADOS!</h2>
+        </div>
         <br>
-        <article class="article_mas_vendidos">
-            <div>
-                <h2>LOS MEJOR VENDIDOS Y CALIFICADOS!</h2>
-            </div>
+        <ul>
+            <li> <a href="">1.- The Legend Of Zelda Tears of the kingdom</a></li>
             <br>
-            <ul>
-                <li> <a href="">1.- The Legend Of Zelda Tears of the kingdom</a></li>
-                <br>
-                <li> <a href="">2.-The Legend Of Zelda Tears of the kingdom</a></li>
-                <br>
-                <li> <a href="">3.- The Legend Of Zelda Tears of the kingdom</a></li>
-                <br>
-                <li> <a href="">4.- The Legend Of Zelda Tears of the kingdom</a></li>
-                <br>
-                <li> <a href="">5.- The Legend Of Zelda Tears of the kingdom</a></li>
-            </ul>
-        </article>
-        <br>
-        <h2>Plataformas y Redes Sociales</h2>
-        <footer>
-            <h3>PS5</h3>
-            <h3>PS4</h3>
-            <h3>XBOX SERIES X</h3>
-            <h3>XBOX ONE</h3>
-            <h3>NINTENDO SWITCH</h3>
-            <img class="iconos_rs" src="./img/facebook_icon.png" alt="icono de facebook">
-            <img class="iconos_rs" src="./img/facebook_icon.png" alt="icono de facebook">
-            <img class="iconos_rs" src="./img/facebook_icon.png" alt="icono de facebook">
-            <img class="iconos_rs" src="./img/facebook_icon.png" alt="icono de facebook">
+            <li> <a href="">2.-The Legend Of Zelda Tears of the kingdom</a></li>
+            <br>
+            <li> <a href="">3.- The Legend Of Zelda Tears of the kingdom</a></li>
+            <br>
+            <li> <a href="">4.- The Legend Of Zelda Tears of the kingdom</a></li>
+            <br>
+            <li> <a href="">5.- The Legend Of Zelda Tears of the kingdom</a></li>
+        </ul>
+    </article>
+    <br>
+    <h2>Plataformas y Redes Sociales</h2>
+    <footer>
+        <h3>PS5</h3>
+        <h3>PS4</h3>
+        <h3>XBOX SERIES X</h3>
+        <h3>XBOX ONE</h3>
+        <h3>NINTENDO SWITCH</h3>
+        <img class="iconos_rs" src="./img/facebook_icon.png" alt="icono de facebook">
+        <img class="iconos_rs" src="./img/facebook_icon.png" alt="icono de facebook">
+        <img class="iconos_rs" src="./img/facebook_icon.png" alt="icono de facebook">
+        <img class="iconos_rs" src="./img/facebook_icon.png" alt="icono de facebook">
 
-        </footer>
+    </footer>
 
-
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
