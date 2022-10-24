@@ -188,7 +188,7 @@ footer {
 }
 
 .reseñas_titulo {
-    background-image: url(../img/slider2.jpg);
+    background-image: url(../img/bg-image.jpg);
     background-position: center;
     background-size: contain;
     height: 20vh;
@@ -206,15 +206,45 @@ p {
 
 .producto_titulo {
     text-decoration: underline;
+    background-image: url(../img/bg-imagecr.jpg);
+        background-position: center;
+        background-size: contain;
+        height: 20vh;
+        font-size: 50px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(197, 202, 225);
 }
 
 .sobre_nosotros_titulo {
     text-decoration: underline;
+        background-image: url(../img/bg-imagesn.jpg);
+        background-position: center;
+        background-size: contain;
+        height: 20vh;
+        font-size: 50px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(197, 202, 225);
 }
 
 .carrito-titulo {
     text-decoration: underline;
-}
+        background-image: url(../img/bg-imagesc.jpg);
+        background-position: center;
+        background-size: contain;
+        height: 20vh;
+        font-size: 50px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(197, 202, 225);
+    }
 
 .header_titulo {
     max-width: 22px;
@@ -228,4 +258,8 @@ p {
 .slide {
     background-color: rgb(29, 141, 253);
 
+}
+.btn_proceder{
+    justify-content: space-between;
+    text-align: center;
 }
