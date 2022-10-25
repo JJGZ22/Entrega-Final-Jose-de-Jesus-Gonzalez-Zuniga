@@ -159,7 +159,7 @@ button {
 
 footer {
     font-size: small;
-    background-color: purple;
+    background-color: rgb(179, 188, 244);
     border: 2px solid black;
     width: auto;
     border-radius: 2px;
@@ -181,10 +181,17 @@ footer {
 }
 
 .iconos_rs {
-    align-self: flex-end;
-    max-width: 25px;
+    width: 30px;
+    float: right;
+    margin: 10px;
 
 
+}
+
+.ofertaroja {
+    color: red;
+    font-weight: bold;
+    font-size: large;
 }
 
 .reseñas_titulo {
