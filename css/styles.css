@@ -474,3 +474,6 @@ p {
     animation-name: wobble;
     animation-duration: 1s;
 }
+.formw{
+    width: 50px;
+}
