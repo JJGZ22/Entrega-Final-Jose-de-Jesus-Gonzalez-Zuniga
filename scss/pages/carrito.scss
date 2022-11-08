@@ -1,0 +1,20 @@
+.btn_proceder {
+    justify-content: space-between;
+    text-align: center;
+}
+.formw{
+    width: 50px;
+}
+.carrito-titulo {
+    text-decoration: underline;
+    background-image: url(../img/bg-imagesc.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 20vh;
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(197, 202, 225);
+}

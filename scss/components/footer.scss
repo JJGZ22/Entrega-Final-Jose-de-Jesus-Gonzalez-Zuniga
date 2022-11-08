@@ -1,0 +1,18 @@
+footer {
+    font-size: small;
+    background-color: rgb(179, 188, 244);
+    border: 2px solid black;
+    width: auto;
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    .iconos_rs {
+        width: 30px;
+        float: right;
+        margin: 11px;
+    
+    
+    }
+}

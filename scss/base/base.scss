@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+li{
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.formabtn {
+    border-radius: $radio;
+    border-color: $color-negro;
+    box-shadow: $sombra;
+}
+
+.formabtn:active {
+
+    background-color: $color-fondobtn;
+    box-shadow: $sombra;
+    transform: translateY(4px);
+
+}
+
+.toplista {
+    border: $borde-colornegro;
+
+}
+
+.snparrafo {
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase
+}
+
+p {
+    text-align: justify;
+}
