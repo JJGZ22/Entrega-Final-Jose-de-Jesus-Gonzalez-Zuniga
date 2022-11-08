@@ -141,7 +141,7 @@ button {
   background-color: rgb(179, 188, 244);
 }
 .navbar .barra_busqueda {
-  margin-left: 50px;
+  margin-left: 3px;
 }
 .navbar .barra_busqueda .navbar__list {
   text-align: center;
