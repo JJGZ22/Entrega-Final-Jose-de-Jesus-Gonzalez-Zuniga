@@ -8,13 +8,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color:$color-rojo;
+    color: $color-rojo;
 }
+
 .ofertaroja {
-    color:$color-rojo;
+    color: $color-rojo;
     font-weight: bold;
     font-size: large;
 }
+
 .article_mas_vendidos {
     background-color: rgba(32, 224, 163, 0.726);
     border: 2px solid black;
@@ -28,6 +30,8 @@
     margin-bottom: 15px;
 
 }
-.toplista{border:$borde-lista;
+
+.toplista {
+    border: $borde-lista;
 
 }

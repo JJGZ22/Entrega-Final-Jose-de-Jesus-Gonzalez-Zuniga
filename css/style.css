@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -100,27 +101,33 @@ label {
   .product_card {
     flex: 1 21%;
   }
+
   .products .product_card:first-child,
   .products .product_card:nth-child(2) {
     flex: 2 46%;
   }
 }
+
 @media (max-width: 600px) {
   .product_card {
     flex: 1 46%;
   }
 }
+
 @media (max-width: 480px) {
   h1 {
     margin-bottom: 20px;
   }
+
   .product-filter {
     flex-direction: column;
   }
+
   .sort {
     align-self: flex-start;
   }
 }
+
 button {
   margin: 5px;
 }
@@ -140,9 +147,11 @@ button {
 .navbar {
   background-color: rgb(179, 188, 244);
 }
+
 .navbar .barra_busqueda {
   margin-left: 3px;
 }
+
 .navbar .barra_busqueda .navbar__list {
   text-align: center;
   display: flex;
@@ -159,6 +168,7 @@ button {
 .slider_publicitario {
   max-width: 100%;
 }
+
 .slider_publicitario .slide {
   background-color: rgb(29, 141, 253);
 }
@@ -173,6 +183,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 footer .iconos_rs {
   width: 30px;
   float: right;
@@ -218,10 +229,12 @@ footer .iconos_rs {
   from {
     background-color: rgb(0, 98, 255);
   }
+
   to {
     background-color: rgb(255, 0, 0);
   }
 }
+
 .imgani:hover {
   background-color: red;
   animation-name: btnani;
@@ -232,10 +245,12 @@ footer .iconos_rs {
   from {
     background-color: blue;
   }
+
   to {
     background-color: red;
   }
 }
+
 .imgani2:hover {
   background-color: rgb(18, 167, 231);
   animation-name: btnani2;
@@ -248,33 +263,46 @@ footer .iconos_rs {
     -ms-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-  10%, 20% {
+
+  10%,
+  20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
     -ms-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
   }
-  30%, 50%, 70%, 90% {
+
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
   }
-  40%, 60%, 80% {
+
+  40%,
+  60%,
+  80% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
     -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
   }
+
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     -ms-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
+
   0% {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
   }
+
   100% {
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
   }
 }
+
 .imgtada:hover {
   animation-name: tada;
   animation-duration: 1s;
@@ -284,25 +312,32 @@ footer .iconos_rs {
   0% {
     transform: rotate(10deg);
   }
+
   25% {
     transform: rotate(-10deg);
   }
+
   50% {
     transform: rotate(20deg);
   }
+
   75% {
     transform: rotate(-5deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
+
   0% {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
   }
+
   100% {
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
   }
 }
+
 .imgwiggle:hover {
   animation-name: wiggle;
   animation-duration: 1s;
@@ -312,25 +347,32 @@ footer .iconos_rs {
   0% {
     transform: rotate(10deg);
   }
+
   25% {
     transform: rotate(-10deg);
   }
+
   50% {
     transform: rotate(20deg);
   }
+
   75% {
     transform: rotate(-5deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
+
   0% {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
   }
+
   100% {
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
   }
 }
+
 .imgpulse:hover {
   animation-name: pulse-animation;
   animation-duration: 3s;
@@ -341,37 +383,46 @@ footer .iconos_rs {
     -webkit-transform: none;
     transform: none;
   }
+
   15% {
     -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
     transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
   }
+
   30% {
     -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
     transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
   }
+
   45% {
     -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
     transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
   }
+
   60% {
     -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
     transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
   }
+
   75% {
     -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
     transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
   }
+
   100% {
     -webkit-transform: none;
     transform: none;
   }
+
   0% {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
   }
+
   100% {
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
   }
 }
+
 .imgwobble:hover {
   animation-name: wobble;
   animation-duration: 1s;
