@@ -92,7 +92,13 @@ label {
 
 .product_info {
   margin-top: auto;
-  padding-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.resena_info {
+  margin-top: 20px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -240,6 +246,19 @@ footer .iconos_rs {
   background-color: rgb(18, 167, 231);
   animation-name: btnani2;
   animation-duration: 5s;
+}
+
+@keyframes tadada {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+.imgtadada:hover {
+  animation-name: tadada;
+  animation-duration: 3s;
 }
 
 @keyframes tada {
@@ -422,6 +441,10 @@ footer .iconos_rs {
   justify-content: center;
   align-items: center;
   color: rgb(197, 202, 225);
+}
+
+.rol_empresarial {
+  font-weight: bold;
 }
 
 .sobre_nosotros_titulo {

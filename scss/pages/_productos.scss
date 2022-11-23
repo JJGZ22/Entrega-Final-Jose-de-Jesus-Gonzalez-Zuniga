@@ -30,6 +30,21 @@
     animation-duration: 5s;
 }
 
+@keyframes tadada{
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+
+}
+.imgtadada:hover {
+    animation-name: tadada;
+    animation-duration: 3s;
+}
+
 @keyframes tada {
     0% {
         -webkit-transform: scale3d(1, 1, 1);
